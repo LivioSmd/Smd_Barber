@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" >
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link href="style/style.css" rel="stylesheet" >
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/logo-smd-barber-allongé.png" alt="Logo Smd Barber" class="logo_smd_barber">
+            <div>
+                <a href="index.html">Accueil</a>
+            </div>
+            <div class="nav_liens">
+                <a href="#clickCount">CA</a>
+                <a href="#depenseTotal">Dépenses</a>
+                <a href="#totalNet">Total</a>
+                <a href="#afficheHistorique">Historique</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="ajout_recettes_depenses">
+            <div class="ajout_bouton">
+                <button id="clickButton10" class="button">+ 10€ Client</button>
+                <button id="clickButton5" class="button">+ 5€ Client</button>
+            </div>
+            <form action="" class="form_achat" id="formulaire">
+                <div class="div_depense">
+                <label for="depenses">Nom</label>
+                <input type="text" name="dépenses" id="depenses">
+                </div>
+                <div class="div_depense">
+                    <label for="prix">Prix</label>
+                    <input type="text" name="raison" id="prix">
+                </div>
+                <input type="submit" value="Dépense" class="button">
+            </form>
+        </section>
+        <section class="vu_portefeuille">
+            <div class="vu-du-portefeuille">
+                <p>Chiffre d'affaire : <span id="clickCount" class="nombre-size">0</span>€</p>
+                <p class="p-total-net">Total Net : <span id="totalNet" class="nombre-size">0</span>€</p>
+                <p>Dépenses : -<span id="depenseTotal" class="nombre-size">0</span>€</p>
+            </div>
+            <div>
+                <p class="historique-affichage">Historique :
+                    <span id="afficheHistorique"></span>
+                    <span id="afficheHistoriqueDepenses"></span>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

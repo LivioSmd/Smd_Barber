@@ -1,0 +1,141 @@
+body {
+  background-color: #FFFF;
+  margin: auto;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_smd_barber {
+  width: 10%;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+  cursor: pointer;
+}
+
+.nav_liens {
+display: flex;
+gap: 15px;
+margin-right: 15px;
+}
+
+.ajout_recettes_depenses {
+  background-color: #352d59;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+}
+ 
+.ajout_bouton {
+    display: flex;
+    gap: 20px;
+}
+
+.ajout_recettes_depenses label{
+  color: white;
+}
+
+.button {
+  position:relative;
+  width:200px;
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+  margin:0 auto;
+  border-radius: 30px;
+  border:solid 1px #564e7e;
+  background:#8c85b3;
+  text-align:center;
+  padding:20px 30px;
+  box-shadow: 0px 5px 5px #564e7e;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+.button:active{
+  -webkit-box-shadow: 0px 2px 0px #564e7e;
+  -moz-box-shadow: 0px 2px 0px #564e7e;
+  box-shadow: 0px 2px 0px #564e7e;
+  position:relative;
+  top:3px;
+}
+
+.form_achat{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_achat div {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_depense input {
+  width: 100%;
+  height: 30px;
+  background-color: #c4c0d8;
+}
+
+.vu-du-portefeuille {
+  display: flex;
+  justify-content: space-evenly;
+  height: 260px;
+}
+
+.vu_portefeuille p {
+  font-size: 20px;
+  margin-top: 6%;
+}
+
+.nombre-size {
+  font-size: 25px;
+}
+
+#totalNet {
+  font-size: 40px;
+}
+
+.p-total-net {
+  margin-top: 14% !important; 
+  font-size: 29px !important; 
+}
+
+#afficheHistorique {
+  display: flex;
+  border: 1px black solid;
+  background-color:#8c85b3;
+  color: black;
+  width: 101px;
+  height: 137px;
+  overflow: scroll;
+}
+
+#afficheHistoriqueDepenses {
+  display: flex;
+  border: 1px black solid;
+  background-color:#8c85b3;
+  color: black;
+  width: 121px;
+  height: 137px;
+  overflow: scroll;
+}
+
+.historique-affichage {
+  display: flex;
+  background-color: #352d59;
+  color: #FFF;
+  height: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
